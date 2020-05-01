@@ -9,7 +9,7 @@ setxkbmap tr
 
 # synaptic touchpad options go here #<\\>    
 synclient vertedgescroll=1          #<//>    
-synclient horizedgescroll=1         #<\\>   That's a rose body ;)
+synclient horizedgescroll=1         #<\\>   That's a rose pedal (kinda) ;)
 synclient TapButton1=1              #<//>   
 # ###################################<\\>    
 
