@@ -16,3 +16,5 @@ OS........: Void GNU/Linux
 SHELL.....: BASH
 WM........: AwesomeWM
 MISC......: NVIM
+
+TO BE CONTINUED...
