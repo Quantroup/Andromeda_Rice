@@ -1,4 +1,3 @@
-<p>
 <h1>
   Void_Rice
 </h1>
