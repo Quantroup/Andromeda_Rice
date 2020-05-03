@@ -1,14 +1,8 @@
 <p>
-#     #                         ######                  
-#     #  ####  # #####          #     # #  ####  ###### 
-#     # #    # # #    #         #     # # #    # #      
-#     # #    # # #    #         ######  # #      #####  
- #   #  #    # # #    #         #   #   # #      #      
-  # #   #    # # #    #         #    #  # #    # #      
-   #     ####  # #####  ####### #     # #  ####  ######                                                               
-                            Welcome to                                             
-                            the  world                                       
-                         of customization!                                  
+                            Void_Rice<br>                                                              
+                            Welcome to<br>                                             
+                            the  world <br>                                      
+                         of customization!<br>                                  
                          
 ==Why this exists==  
 I wanted to share my customizations. That's it.
