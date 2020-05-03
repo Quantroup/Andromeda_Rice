@@ -5,8 +5,8 @@
                             Welcome to<br>                                             
                             the  world <br>                                      
                          of customization!<br>  
-![rice1](/pictures/rice1.png)                         
-![rice2](/pictures/rice2.png)                         
+![rice1](/pictures/rice1.png)<br>                         
+![rice2](/pictures/rice2.png)<br>                         
 ==Why this exists==  
 I wanted to share my customizations. That's it.
 
@@ -20,4 +20,3 @@ WM........: AwesomeWM
 MISC......: neovim  
   
 TO BE CONTINUED...  
-<p/>
