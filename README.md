@@ -20,4 +20,4 @@ WM........: AwesomeWM
 MISC......: neovim  
   
 TO BE CONTINUED...  
-<p\>
+<p/>
