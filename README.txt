@@ -14,7 +14,8 @@ I wanted to share my customizations. That's it.
 =Currently used things=
 OS........: Void GNU/Linux
 SHELL.....: BASH
+TERMINAL..: kitty
 WM........: AwesomeWM
-MISC......: NVIM
+MISC......: neovim
 
 TO BE CONTINUED...
