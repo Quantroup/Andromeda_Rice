@@ -4,8 +4,9 @@
   
                             Welcome to<br>                                             
                             the  world <br>                                      
-                         of customization!<br>                                  
-                         
+                         of customization!<br>  
+![rice1](/pictures/rice1.png)                         
+![rice2](/pictures/rice2.png)                         
 ==Why this exists==  
 I wanted to share my customizations. That's it.
 
