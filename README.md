@@ -1,7 +1,7 @@
 <p>
 <h1>
   Void_Rice
-<h1\>
+</h1>
                             Welcome to<br>                                             
                             the  world <br>                                      
                          of customization!<br>  
