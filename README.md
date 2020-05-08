@@ -1,12 +1,11 @@
-<p>
 <h1>
   Void_Rice
 </h1>
                             Welcome to<br>                                             
                             the  world <br>                                      
                          of customization!<br>  
-![rice1](/pictures/rice1.png)<br>                       
-![rice2](/pictures/rice2.png)<br>
+![rice1](pictures/rice1.png) <br>
+![rice2](pictures/rice2.png) <br>
 <h2>
 Why this exists<br>
 </h2>
@@ -23,5 +22,4 @@ TERMINAL..: kitty<br>
 WM........: AwesomeWM<br> 
 MISC......: neovim<br>
   
-TO BE CONTINUED...  
-</p>
+TO BE CONTINUED...
