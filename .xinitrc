@@ -9,18 +9,24 @@ setxkbmap tr
 
 # synaptic touchpad options go here #<\\>    
 synclient vertedgescroll=1          #<//>    
-synclient horizedgescroll=1         #<\\>   That's a rose pedal (kinda) ;)
+synclient horizedgescroll=1         #<\\>   That's a rose pedal ;)
 synclient TapButton1=1              #<//>   
 # ###################################<\\>    
 
+# Icon Themes go here
+gsettings set org.gnome.desktop.interface icon-theme 'Papirus-Dark'
+
 # sets the background
-feh --bg-scale jf-brou-915UJQaxtrk-unsplash.jpg
+feh --bg-fill PepperAndCarrot.jpg
 
 # starts the composite manager, picom
 picom --backend glx --blur-background &
 
 # starts conky
 conky &
+
+# starts volumeicon
+volumeicon &
 
 # starts awesomeWM
 exec awesome
