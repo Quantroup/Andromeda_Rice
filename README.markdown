@@ -19,7 +19,8 @@ RAM.......: 3GB<br>
 CPU.......: Intel i3 M370<br>
 SHELL.....: BASH<br>
 TERMINAL..: kitty<br>
-WM........: AwesomeWM<br> 
+WM........: AwesomeWM<br>
+WALLPAPER.: https://www.peppercarrot.com/0_sources/0ther/artworks/hi-res/2020-01-25_cover_book-project_by-David-Revoy.jpg <br>
 MISC......: neovim<br>
   
 TO BE CONTINUED...
