@@ -3,9 +3,9 @@
 </h1>
                             Welcome to<br>                                             
                             the  world <br>                                      
-                         of customization!<br>  
-![rice1](https://raw.githubusercontent.com/Quantroup/Rice_Void/master/pictures/rice1.png) <br>
-![rice2](https://raw.githubusercontent.com/Quantroup/Rice_Void/master/pictures/rice2.png) <br>
+                         of customization!<br> 
+</br>
+![pepper2](pictures/pepper2.png)
 <h2>
 Why this exists<br>
 </h2>
