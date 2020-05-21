@@ -1,5 +1,5 @@
 ---------------------------
--- Default awesome theme --
+-- Better awesome theme  --
 ---------------------------
 
 local theme_assets = require("beautiful.theme_assets")
@@ -13,22 +13,22 @@ local theme = {}
 
 theme.font          = "hack-ttf 8"
 
-theme.bg_normal     = "#34302d"
-theme.bg_focus      = "#34302d"
+theme.bg_normal     = "#393832"
+theme.bg_focus      = "#393832"
 theme.bg_urgent     = "#34302d"
-theme.bg_minimize   = "#898177"
+theme.bg_minimize   = "#c2cdae"
 theme.bg_systray    = theme.bg_normal
 
-theme.fg_normal     = "#f5e7de"
-theme.fg_focus      = "#b23636"
+theme.fg_normal     = "#c2cdae"
+theme.fg_focus      = "#b93f3f"
 theme.fg_urgent     = "#ff0000"
-theme.fg_minimize   = "#34302d"
+theme.fg_minimize   = "#393832"
 
 theme.useless_gap   = dpi(7)
 theme.border_width  = dpi(3)
 theme.border_normal = "#34302d"
-theme.border_focus  = "#B23636"
-theme.border_marked = "#992e2e"
+theme.border_focus  = "#b93f3f"
+theme.border_marked = "#9fb1ae"
 
 -- There are other variable sets
 -- overriding the default one when
@@ -124,7 +124,7 @@ theme.awesome_icon = "" --theme_assets.awesome_icon(
 
 -- Define the icon theme for application icons. If not set then the icons
 -- from /usr/share/icons and /usr/share/icons/hicolor will be used.
-theme.icon_theme = nil
+theme.icon_theme = "/usr/share/icons/Papirus/"
 
 return theme
 
