@@ -5,7 +5,7 @@
                             the  world <br>                                      
                          of customization!<br> 
 </br>
-![pepper2](pictures/pepper2.png)
+Please look at the pictures folder to see pictures.
 <h2>
 Why this exists<br>
 </h2>
