@@ -15,9 +15,10 @@ I wanted to share my customizations. That's it.<br>
 <h2>
  ===TEST VERSION WARNING=== <br>
   This is currently a test of the awesomeWM new layout. If we (I?) decide it's better to use this theme we (again, I?) we will merge it to the master branch. <br>
-
+</h2>
+<h1>
 Currently used things <br>
- </h2>
+</h1>
 OS........: Void GNU/Linux<br>
 RAM.......: 3GB<br>
 CPU.......: Intel i3 M370<br>
