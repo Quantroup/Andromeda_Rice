@@ -13,6 +13,9 @@ Why this exists<br>
 I wanted to share my customizations. That's it.<br>
 <br>
 <h2>
+ ===TEST VERSION WARNING=== <br>
+  This is currently a test of the awesomeWM new layout. If we (I?) decide it's better to use this theme we (again, I?) we will merge it to the master branch. <br>
+
 Currently used things <br>
  </h2>
 OS........: Void GNU/Linux<br>
