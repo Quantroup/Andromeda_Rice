@@ -5,7 +5,10 @@
                             the  world <br>                                      
                          of customization!<br> 
 </br>
-Please look at the pictures folder to see pictures.
+![pepper1](pepper1_001.png?raw=true) <br>
+![pepper2](pepper2_001.png?raw=true) <br>
+![peppper3](pepper3_001.png?raw=true) <br>
+![pepper4](pepper4.png?raw=true) <br>
 <h2>
 Why this exists<br>
 </h2>
