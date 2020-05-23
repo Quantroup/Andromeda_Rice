@@ -1,6 +1,5 @@
 <h1>
-  Void_Rice <br>
-  awesome-test version
+  Void_Rice
 </h1>
                             Welcome to<br>                                             
                             the  world <br>                                      
