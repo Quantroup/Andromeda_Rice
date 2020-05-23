@@ -5,10 +5,10 @@
                             the  world <br>                                      
                          of customization!<br> 
 </br>
-![pepper1](pepper1_001.png?raw=true) <br>
-![pepper2](pepper2_001.png?raw=true) <br>
-![peppper3](pepper3_001.png?raw=true) <br>
-![pepper4](pepper4.png?raw=true) <br>
+![pepper1](pepper1_000.png) <br>
+![pepper2](pepper2_000.png) <br>
+![peppper3](pepper3_000.png) <br>
+![pepper4](pepper4.png) <br>
 <h2>
 Why this exists<br>
 </h2>
