@@ -42,7 +42,15 @@ tab {
 /* ENDBLOCK */
 
 /* Changes the color of the empty area around the nav bar */
-#nav-bar-customization-target {
+#nav-bar {
 	background-color: var(--bg-color) !important;
+	color : var(--bg-color)
+}
+
+
+/* Changes the faint line above the url bar */
+#nav-bar {
+	box-shadow: none !important;
+	border-top: bold !important;
 }
 
