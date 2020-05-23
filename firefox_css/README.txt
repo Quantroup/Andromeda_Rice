@@ -7,4 +7,5 @@
 
                                   This is my custom
                                     firefox theme
+                                    Once done, it will be merged from the test branch.
 
