@@ -1,0 +1,48 @@
+/* colors.css (color configuration) */
+
+:root {
+     --bg-color     : #393832;
+     --bg-other     : #9fb1ae;
+     --fg-color     : #c2cdae;
+     --bg-important : #b93f3f;
+     --bg-focus     : #797979;
+     --border-color : #393832;
+}
+
+
+/* Changes the colors in the URL bar */
+#urlbar-background {
+background-color: var(bg-color) !important; 
+border-color: var(--bg-important) !important;
+}
+
+#urlbar-input-container {color: var(--fg-color) !important;}
+
+#urlbar {background-color: var(--bg-color) !important;}
+
+/* Changes the colors of the area behind the tabs */
+#tabbrowser-tabs {background-color: var(--bg-color) !important;}
+
+/* This block makes the tabs seamless with the rest of the configs color */
+tab {
+	height:3rem;
+	background-color: var(--bg-color) !important;
+	font-weight: thin !important;
+	color : var(--fg-color) !important;
+}
+
+.tab-content[selected="true"] {
+
+	background-color: var(--bg-color) !important;
+	font-weight: bold !important;
+	color : var(--bg-important) !important;
+}
+
+#nav-bar-customization-target {background-color: var(--bg-color) !important;}
+/* ENDBLOCK */
+
+/* Changes the color of the empty area around the nav bar */
+#nav-bar-customization-target {
+	background-color: var(--bg-color) !important;
+}
+

@@ -50,7 +50,7 @@ beautiful.init("~/.config/awesome/theme.lua")
 -- This is used later as the default terminal and editor to run.
 terminal = "kitty"
 editor = "nvim"
-editor_cmd = terminal .. " -e " .. editor
+editor_cmd = "kitty" .. " -e " .. editor
 
 -- Default modkey.
 -- Usually, Mod4 is the key with a logo between Control and Alt.
@@ -91,7 +91,7 @@ myawesomemenu = {
 }
 
 mymainmenu = awful.menu({ items = { { "awesome", myawesomemenu, beautiful.awesome_icon },
-                                    { "open terminal", terminal }
+				    { "open terminal", terminal }
                                   }
                         })
 
@@ -107,7 +107,7 @@ mykeyboardlayout = awful.widget.keyboardlayout()
 
 -- {{{ Wibar
 -- Create a textclock widget
-mytextclock = wibox.widget.textclock()
+mytextclock = wibox.widget.textclock() -- Do not delete this as it controls the date
 
 -- Create a wibox for each screen and add it
 local taglist_buttons = gears.table.join(
@@ -149,25 +149,9 @@ local tasklist_buttons = gears.table.join(
                                               awful.client.focus.byidx(-1)
                                           end))
 
---local function set_wallpaper(s)
-    -- Wallpaper
-  --  if beautiful.wallpaper then
-    --    local wallpaper = beautiful.wallpaper
-        -- If wallpaper is a function, call it with the screen
-      --  if type(wallpaper) == "function" then
-        --    wallpaper = wallpaper(s)
-      --  end
-        --gears.wallpaper.maximized(wallpaper, s, true)
-    --end
---end
-
--- Re-set wallpaper when a screen's geometry changes (e.g. different resolution)
---screen.connect_signal("property::geometry", set_wallpaper)
 
 awful.screen.connect_for_each_screen(function(s)
-    -- Wallpaper
-   -- set_wallpaper(s)
-
+    
     -- Each screen has its own tag table.
     awful.tag({ "1", "2", "3", "4", "5", "6", "7", "8", "9" }, s, awful.layout.layouts[1])
 
@@ -192,27 +176,26 @@ awful.screen.connect_for_each_screen(function(s)
     s.mytasklist = awful.widget.tasklist {
         screen  = s,
         filter  = awful.widget.tasklist.filter.currenttags,
-        buttons = tasklist_buttons
-    }
+	buttons = tasklist_buttons,
+	}
 
     -- Create the wibox
     s.mywibox = awful.wibar({ position = "top", screen = s })
-
     -- Add widgets to the wibox
     s.mywibox:setup {
         layout = wibox.layout.align.horizontal,
+	expand = "none",
         { -- Left widgets
             layout = wibox.layout.fixed.horizontal,
             mylauncher,
             s.mytaglist,
+            s.mytasklist,
             s.mypromptbox,
         },
-        s.mytasklist, -- Middle widget
+        mytextclock,
         { -- Right widgets
             layout = wibox.layout.fixed.horizontal,
-            mykeyboardlayout,
-            wibox.widget.systray(),
-            mytextclock,
+	    wibox.widget.systray(),
             s.mylayoutbox,
         },
     }
@@ -492,10 +475,6 @@ awful.rules.rules = {
     { rule_any = {type = { "normal", "dialog" }
       }, properties = { titlebars_enabled = true }
     },
-
-  -- -- -- Set Firefox to always map on the tag named "2" on screen 1.
-  -- -- -- { rule = { class = "Firefox" },
-  -- -- --   properties = { screen = 1, tag = "2" } },
 }
 -- }}}
 
@@ -558,6 +537,7 @@ end)
 client.connect_signal("mouse::enter", function(c)
     c:emit_signal("request::activate", "mouse_enter", {raise = false})
 end)
+-- This enables us to make focus colors to work (the thingy on the edges)
 client.connect_signal("focus", function(c) c.border_color = beautiful.border_focus end)
 client.connect_signal("unfocus", function(c) c.border_color = beautiful.border_normal end)
 -- }}}

@@ -4,8 +4,4 @@
 ██╔══╝  ██║██╔══██╗██╔══╝  ██╔══╝  ██║   ██║ ██╔██╗     ██║     ╚════██║╚════██║
 ██║     ██║██║  ██║███████╗██║     ╚██████╔╝██╔╝ ██╗    ╚██████╗███████║███████║
 ╚═╝     ╚═╝╚═╝  ╚═╝╚══════╝╚═╝      ╚═════╝ ╚═╝  ╚═╝     ╚═════╝╚══════╝╚══════╝
-
-                                  This is my custom
-                                    firefox theme
-                                    Once done, it will be merged from the test branch.
-
+This is my custom firefox css theme. just copy to your default profile (google if you dont know)
