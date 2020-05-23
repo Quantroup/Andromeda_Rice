@@ -1,4 +1,5 @@
 Welcome! This is my custom colorscheme, peppercarrot.
+The complete guidance and rules of the colorscheme will (hopefully) be added later.
 
 
 foreground   #c2cdae
