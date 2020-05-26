@@ -17,6 +17,9 @@ local hotkeys_popup = require("awful.hotkeys_popup")
 -- Enable hotkeys help widget for VIM and other apps
 -- when client with a matching name is opened:
 require("awful.hotkeys_popup.keys")
+-- custom stuff --
+local popclock = require("widgets/popup_clock/")
+local popc = popclock
 
 -- {{{ Error handling
 -- Check if awesome encountered an error during startup and fell back to
@@ -189,11 +192,11 @@ awful.screen.connect_for_each_screen(function(s)
             layout = wibox.layout.fixed.horizontal,
             mylauncher,
             s.mytaglist,
-            s.mytasklist,
             s.mypromptbox,
+            s.mytasklist,
         },
-        mytextclock,
-        { -- Right widgets
+	mytextclock,
+	{ -- Right widgets
             layout = wibox.layout.fixed.horizontal,
 	    wibox.widget.systray(),
             s.mylayoutbox,
@@ -201,7 +204,9 @@ awful.screen.connect_for_each_screen(function(s)
     }
 end)
 -- }}}
-
+mytextclock:connect_signal( "button::press", function()
+	popclock.turn_on()
+end)
 -- {{{ Mouse bindings
 root.buttons(gears.table.join(
     awful.button({ }, 3, function () mymainmenu:toggle() end),
